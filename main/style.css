@@ -22,7 +22,7 @@ body {
 .nav-icon {
   height: 80%;
   width: 100%;
-  fill: #888888;
+  fill: #888;
   padding: 5px;
 }
 
@@ -32,13 +32,13 @@ body {
 }
 
 .pink {
-  fill: #D35266;
-  color:#D35266;
+  fill: #d35266;
+  color: #d35266;
 }
 
 .gray {
-  fill: #888888 ;
-  color: #888888 ;
+  fill: #888;
+  color: #888;
 }
 
 .dark {
@@ -51,29 +51,27 @@ body {
   color: #f8f8f8;
 }
 
-.bc-pink{
+.bc-pink {
   background-color: #D35266;
   border-color: #D35266;
 }
 
 .filter-banner {
-  background: linear-gradient(rgba(211, 82, 102, 0.45),rgba(211, 82, 102, 0.45)), url("resources/banner-bck.webp");
+  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("resources/banner-bck.webp");
   background-size: cover;
 }
 
 .categories {
-  background-color: #dddddd;
+  background-color: #ddd;
   padding: 20px;
 }
 
 .footer {
   display: grid;
   grid-template-areas:
-  "logo logo logo cat cat credits settings"
-  "corp corp corp cat cat credits settings"
-  "corp corp corp cat cat credits settings"
-  ". . . . ."
-  "final final final . . social social"
-  ;
-
+    "logo logo logo cat cat credits settings"
+    "corp corp corp cat cat credits settings"
+    "corp corp corp cat cat credits settings"
+    ". . . . ."
+    "final final final . . social social";
 }
