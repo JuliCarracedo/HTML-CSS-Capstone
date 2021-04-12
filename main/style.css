@@ -60,3 +60,20 @@ body {
   background: linear-gradient(rgba(211, 82, 102, 0.45),rgba(211, 82, 102, 0.45)), url("resources/banner-bck.webp");
   background-size: cover;
 }
+
+.categories {
+  background-color: #dddddd;
+  padding: 20px;
+}
+
+.footer {
+  display: grid;
+  grid-template-areas:
+  "logo logo logo cat cat credits settings"
+  "corp corp corp cat cat credits settings"
+  "corp corp corp cat cat credits settings"
+  ". . . . ."
+  "final final final . . social social"
+  ;
+
+}
