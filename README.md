@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
 # New York Times Page Clone
-​
-![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/basicDesign/Header&Carousel.png)
-​
-![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/basicDesign/Categories.png)
 
-![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/basicDesign/Footer.png)
+​![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Header%26Carousel.PNG)
+
+![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Categories.PNG)
+​
+![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Footer.PNG)
+
+
 ​
 ### Built With
 ​
