@@ -2,11 +2,11 @@
 ​
 # New York Times Page Clone
 ​
-![Online Store](/snapshots/Header&Carousel.png)
+![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/basicDesign/Header&Carousel.png)
 ​
-![Online Store](/snapshots/Categories.png)
+![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/basicDesign/Categories.png)
 
-![Online Store](/snapshots/Footer.png)
+![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/basicDesign/Footer.png)
 ​
 ### Built With
 ​
