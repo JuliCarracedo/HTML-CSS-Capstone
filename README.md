@@ -24,6 +24,8 @@
 - GitHub: [@JuliCarracedo](https://github.com/JuliCarracedo)
 - Twitter: [@CarracedoJulian](https://twitter.com/CarracedoJulian)
 - LinkedIn: [Julian Carracedo]](https://www.linkedin.com/in/julian-carracedo-0b8518207/)
+
+Creative License for the design template goes to [Mohammed Awad on Behanc](https://www.behance.net/M_Awad)
 ​
 ## �� Contributing
 ​
