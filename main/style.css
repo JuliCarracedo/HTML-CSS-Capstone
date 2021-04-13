@@ -56,8 +56,32 @@ body {
   border-color: #d35266;
 }
 
+.pink-link{
+  color: #d35266;
+  text-decoration: none;
+}
+
+.pink-link:hover {
+  color: #d35266;
+}
+
+.gray-link{
+  color: #888;
+  text-decoration: none;
+}
+
+.gray-link:hover {
+  color: #888;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: 5vh;
+  right:10vw;
+}
+
 .filter-banner {
-  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("resources/banner-bck.webp");
+  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("../resources/banner-bck.webp");
   background-size: cover;
 }
 
@@ -67,11 +91,15 @@ body {
 }
 
 .footer {
-  display: grid;
-  grid-template-areas:
-    "logo logo logo cat cat credits settings"
-    "corp corp corp cat cat credits settings"
-    "corp corp corp cat cat credits settings"
-    ". . . . ."
-    "final final final . . social social";
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.fix-size {
+  width: 20vw;
+}
+
+.dynamic-card{
+  width: 100%;
 }
