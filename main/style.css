@@ -25,11 +25,11 @@ body {
   padding-right: 3%;
 }
 
-.logo-link{
+.logo-link {
   height: 100%;
 }
 
-.wide-link{
+.wide-link {
   width: fit-content;
 }
 
@@ -40,7 +40,7 @@ body {
   padding: 5px;
 }
 
-.nav-icon-variant{
+.nav-icon-variant {
   height: 100%;
   fill: #888;
   padding: 5px;
@@ -76,7 +76,7 @@ body {
   border-color: #d35266;
 }
 
-.pink-link{
+.pink-link {
   color: #d35266;
   text-decoration: none;
 }
@@ -85,7 +85,7 @@ body {
   color: #d35266;
 }
 
-.gray-link{
+.gray-link {
   color: #888;
   text-decoration: none;
 }
@@ -97,7 +97,7 @@ body {
 .carousel-control-prev {
   position: absolute;
   top: 5vh;
-  right:10vw;
+  right: 10vw;
 }
 
 .filter-banner {
@@ -124,6 +124,6 @@ body {
   width: 100%;
 }
 
-.dynamic-card{
+.dynamic-card {
   width: 100%;
 }
