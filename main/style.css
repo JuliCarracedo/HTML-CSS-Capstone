@@ -1,3 +1,9 @@
+@media screen and (min-width: 768px) {
+  .carousel-width {
+    width: 75%;
+  }
+}
+
 body {
   font-family: 'Helvetica Neue Bold', 'Gotham Bold', sans-serif;
 }
@@ -19,9 +25,23 @@ body {
   padding-right: 3%;
 }
 
+.logo-link{
+  height: 100%;
+}
+
+.wide-link{
+  width: fit-content;
+}
+
 .nav-icon {
-  height: 80%;
+  height: 100%;
   width: 100%;
+  fill: #888;
+  padding: 5px;
+}
+
+.nav-icon-variant{
+  height: 100%;
   fill: #888;
   padding: 5px;
 }
@@ -98,6 +118,10 @@ body {
 
 .fix-size {
   width: 20vw;
+}
+
+.carousel-width {
+  width: 100%;
 }
 
 .dynamic-card{
