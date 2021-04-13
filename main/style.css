@@ -1,9 +1,3 @@
-@media screen and (min-width: 768px) {
-  .carousel-width {
-    width: 75%;
-  }
-}
-
 body {
   font-family: 'Helvetica Neue Bold', 'Gotham Bold', sans-serif;
 }
@@ -117,7 +111,7 @@ body {
 }
 
 .fix-size {
-  width: 20vw;
+  width: 30vw;
 }
 
 .carousel-width {
@@ -126,4 +120,13 @@ body {
 
 .dynamic-card {
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-width {
+    width: 75%;
+  }
+  .fix-size{
+    width: 20vw;
+  }
 }
