@@ -122,6 +122,65 @@ body {
   width: 100%;
 }
 
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-item:hover {
+  background-color: #383838;
+  color: #f8f8f8;
+}
+
+.two-cols {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 90%;
+  margin: 2% auto 2% auto;
+}
+
+.search-filters {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  border-right-color: #888;
+  border-right-style: solid;
+  border-right-width: 1px;
+  width: 100%;
+}
+
+.results {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.new-old {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.search-brand,
+.search-price,
+.search-type {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:100%
+}
+
+label {
+  width: fit-content;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 @media screen and (min-width: 768px) {
   .carousel-width {
     width: 75%;

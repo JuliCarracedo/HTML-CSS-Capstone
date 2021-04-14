@@ -9,7 +9,7 @@
     <title>Computer Parts Store</title>
 </head>
 <body class="container-fluid p-0">
-    <header> 
+    <header class="sticky-top"> 
         <nav class="navbar-black d-flex align-content-baseline justify-content-between sticky-top">
             <div class="user-access d-flex justify-content-start align-items-center p-0 ">
                 <a target="_self" href="#" class="logo-link text-decoration-none"><img alt="Maxwell Hardware" class="h-100" src="../resources/Logo.png"></a> 
@@ -64,7 +64,7 @@
                             <div class="card-body px-5">
                                 <h5 class="card-title">Intel Core i3 Processor</h5>
                                 <p class="card-text">10th Gen core i3. 2 cores at 3.8gHz</p>
-                                <p class="card-text pink"><small class="text-muted">New</small></p>
+                                <p class="card-text pink"><small>New</small></p>
                                 <div class="d-inline-flex">
                                     <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-75 h50 p-3 mb-5 bc-pink rounded">$450</a>
                                     <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-100 h-50 p-3 mb-5 bc-pink rounded">Buy</a>
@@ -85,7 +85,7 @@
                                 <div class="card-body px-5">
                                     <h5 class="card-title">Intel I5 Desktop</h5>
                                     <p class="card-text">10th Gen core i5 and 8gb of DDR4 RAM</p>
-                                    <p class="card-text pink"><small class="text-muted">New</small></p>
+                                    <p class="card-text pink"><small>New</small></p>
                                     <div class="d-inline-flex">
                                         <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-75 h50 p-3 mb-5 bc-pink rounded">$450</a>
                                         <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-100 h-50 p-3 mb-5 bc-pink rounded">Buy</a>
@@ -106,7 +106,7 @@
                                 <div class="card-body px-5">
                                     <h5 class="card-title">Intel I5 Desktop</h5>
                                     <p class="card-text">10th Gen core i5 and 8gb of DDR4 RAM</p>
-                                    <p class="card-text pink"><small class="text-muted">New</small></p>
+                                    <p class="card-text pink"><small>New</small></p>
                                     <div class="d-inline-flex">
                                         <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-75 h50 p-3 mb-5 bc-pink rounded">$450</a>
                                         <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-100 h-50 p-3 mb-5 bc-pink rounded">Buy</a>
@@ -142,7 +142,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                     <p class="align-self-end pink">$75</p>
                                 </div>
                             </section>  
@@ -155,7 +164,16 @@
                                 <p class="pink">Used</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>   
                                     <p class="align-self-end pink">$25.99</p>
                                 </div>
                             </section>  
@@ -169,7 +187,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                     <p class="align-self-end pink">$150</p>
                                 </div>
                             </section>  
@@ -182,7 +209,16 @@
                                 <p class="pink">Used</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                     <p class="align-self-end pink">$25.99</p>
                                 </div>
                             </section>  
@@ -203,7 +239,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>   
                                     <p class="align-self-end pink">$100</p>
                                 </div>
                             </section>  
@@ -216,7 +261,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                     <p class="align-self-end pink">$200</p>
                                 </div>
                             </section>  
@@ -230,7 +284,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>   
                                     <p class="align-self-end pink">$400</p>
                                 </div>
                             </section>  
@@ -243,7 +306,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>   
                                     <p class="align-self-end pink">$200</p>
                                 </div>
                             </section>  
@@ -263,7 +335,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>   
                                     <p class="align-self-end pink">$300</p>
                                 </div>
                             </section>  
@@ -276,7 +357,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                     <p class="align-self-end pink">$350</p>
                                 </div>
                             </section>  
@@ -290,7 +380,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                     <p class="align-self-end pink">$400</p>
                                 </div>
                             </section>  
@@ -303,7 +402,16 @@
                                 <p class="pink">New</p>
                                 <p class="gray">From San Francisco, US</p>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn border-secondary" data-toggle="popover"  data-content="And here's some amazing content. It's very engaging. Right?"><svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg></button>   
+                                    <div class="dropdown">
+                                        <button class="btn btn-light dropdown-toggle border-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z"/></svg>
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                          <li><a class="dropdown-item" href="#">Send a message</a></li>
+                                          <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>   
                                     <p class="align-self-end pink">$550</p>
                                 </div>
                             </section>  

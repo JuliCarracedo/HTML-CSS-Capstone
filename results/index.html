@@ -8,8 +8,8 @@
     <link href="../main/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="container-fluid">
-    <header> 
+<body class="container-fluid p-0">
+    <header class="sticky-top p-0"> 
         <nav class="navbar-black d-flex align-content-baseline justify-content-between sticky-top">
             <div class="user-access d-flex justify-content-start align-items-center p-0 ">
                 <a target="_blank" href="../main/index.html" class="logo-link text-decoration-none"><img alt="Maxwell Hardware" class="h-100" src="../resources/Logo.png"></a> 
@@ -27,9 +27,9 @@
         </nav>
     </header>
 
-    <main>
+    <main class="categories p-0 m-0">
         
-        <div class="filter-banner w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+        <div class="filter-banner w-100 h-100 d-flex flex-column align-items-center justify-content-center m-0">
             <h1 class="white">Maxwell Hardware</h1>
             <h3 class="white mt-5"> <strong>Can we help you?</strong></h3>
             <h5 class="white mt-2 mb-5 justify">Use the filters to find what you're looking for</h5>
@@ -46,22 +46,333 @@
             </div>
         </div>    
 
-        <article class="categories">
+        <article class="two-cols">
+            
             <div class="search-filters">
-                
+                <div class="new-old">    
+                    <label><input name="new" value="new" type="checkbox">New</label>
+   
+                    <label><input name="old" value="old" type="checkbox">Old</label>
+                </div>
+                <article class="search-type">
+                    <h5 class="dark fw-bold">Type</h5>
+
+                    <hr class="dark m-1">
+                    
+                    <label><input name="motherboard" value="motherboard" type="checkbox">Motherboard</label>
+
+                    <label><input name="cpu" value="cpu" type="checkbox">CPU</label>
+
+                    <label><input name="case" value="case" type="checkbox">Case</label>
+
+                    <label><input name="computer" value="computer" type="checkbox">Computer</label>
+                    
+                    <label><input name="accesories" value="accesories" type="checkbox">Accesories</label>
+
+                    <label><input name="gpu" value="gpu" type="checkbox">GPU</label>
+
+                </article>
+
+                <article class="search-brand">
+                    <h5 class="dark fw-bold">Brand</h5>
+
+                    <hr class="dark m-1">
+                    
+                    <label><input name="intel" value="intel" type="checkbox">Intel</label>
+
+                    <label><input name="amd" value="amd" type="checkbox">AMD</label>
+
+                    <label><input name="giga" value="giga" type="checkbox">Gigabyte</label>
+
+                    <label><input name="asus" value="asus" type="checkbox">Asus</label>
+                    
+                    <label><input name="ztx" value="ztx" type="checkbox">ZTX</label>
+
+                </article>
+
+                <article class="search-price">
+                    <h5 class="dark fw-bold">Price</h5>
+
+                    <hr class="dark m-1">
+                    
+                    <label><input name="to1000" value="to1000" type="checkbox">$500 - $1000</label>
+
+                    <label><input name="to500" value="to500" type="checkbox">$100 - $500</label>
+
+                    <label><input name="to100" value="to100" type="checkbox">Up to $100</label>
+
+                    <label><input name="custom" value="custom" type="checkbox">Custom <input type="number" min="0" max="20000"></label>
+                    
+
+                </article>
+
             </div>
 
-            <div class="results">
+            <article class="results">
                 <h5>Found 7 search results for <strong>Intel</strong></h5>
-            </div>
+
+                <div class="card pt-3 my-3">
+                    <div class="row g-0">
+                      <div class="col-1"></div>
+                      <div id="image-carousel-1" class="carousel slide img-search-result col-4 h-50" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../resources/IntelCore-i3.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/IntelCore-i3.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/IntelCore-i3.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                        </div>
                 
+                        <div class="position-relative bottom-0 start-50 w-75">
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-1"
+                            data-bs-slide="prev">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-1" data-bs-slide="next">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                        </div>
+                
+                      </div>
+                
+                      <div class="col-7">
+                        <section class="card-body px-5">
+                            <h4 class="card-title dark fw-bold">Intel Core i3 Processor</h4>
+                            <p class="card-text">10th Gen core i3. 2 cores at 3.8gHz</p>
+                           <div class="d-inline-flex"><p class="card-text gray">Location:</p><p class="card-text dark">San Francisco, US</p></div> 
+                            <p class="card-text pink"><small>New</small></p>
+                            <div class="d-inline-flex justify-content-end w-100">
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h50 p-3 mb-5 bc-pink rounded mx-1">$450</a>
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h-50 p-3 mb-5 bc-pink rounded mx-1">Buy</a>
+                            </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="card pt-3 my-3">
+                    <div class="row g-0">
+                      <div class="col-1"></div>
+                      <div id="image-carousel-2" class="carousel slide img-search-result col-4 h-50" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../resources/IntelCore-i5.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/IntelCore-i5.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/IntelCore-i5.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                        </div>
+                
+                        <div class="position-relative bottom-0 start-50 w-75">
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-2"
+                            data-bs-slide="prev">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-2" data-bs-slide="next">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                        </div>
+                
+                      </div>
+                
+                      <div class="col-7">
+                        <section class="card-body px-5">
+                            <h4 class="card-title dark fw-bold">Intel Core i5 Processor</h4>
+                            <p class="card-text">10th Gen core i5. 4 cores at 3.8gHz</p>
+                           <div class="d-inline-flex"><p class="card-text gray">Location:</p><p class="card-text dark">San Francisco, US</p></div> 
+                            <p class="card-text pink"><small>New</small></p>
+                            <div class="d-inline-flex justify-content-end w-100">
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h50 p-3 mb-5 bc-pink rounded mx-1">$450</a>
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h-50 p-3 mb-5 bc-pink rounded mx-1">Buy</a>
+                            </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="card pt-3 my-3">
+                    <div class="row g-0">
+                      <div class="col-1"></div>
+                      <div id="image-carousel-3" class="carousel slide img-search-result col-4 h-50" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../resources/IntelCore-i7-10th.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/IntelCore-i7-10th.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/IntelCore-i7-10th.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                        </div>
+                
+                        <div class="position-relative bottom-0 start-50 w-75">
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-3"
+                            data-bs-slide="prev">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-3" data-bs-slide="next">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                        </div>
+                
+                      </div>
+                
+                      <div class="col-7">
+                        <section class="card-body px-5">
+                            <h4 class="card-title dark fw-bold">Intel Core i7 Processor</h4>
+                            <p class="card-text">10th Gen core i7. 8 cores at 4.0gHz</p>
+                           <div class="d-inline-flex"><p class="card-text gray">Location:</p><p class="card-text dark">San Francisco, US</p></div> 
+                            <p class="card-text pink"><small>New</small></p>
+                            <div class="d-inline-flex justify-content-end w-100">
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h50 p-3 mb-5 bc-pink rounded mx-1">$450</a>
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h-50 p-3 mb-5 bc-pink rounded mx-1">Buy</a>
+                            </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="card pt-3 my-3">
+                    <div class="row g-0">
+                      <div class="col-1"></div>
+                      <div id="image-carousel-4" class="carousel slide img-search-result col-4 h-50" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../resources/Gigabyte-b365m-Intel.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources//Gigabyte-b365m-Intel.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/Gigabyte-b365m-Intel.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                        </div>
+                
+                        <div class="position-relative bottom-0 start-50 w-75">
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-4"
+                            data-bs-slide="prev">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-4" data-bs-slide="next">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                        </div>
+                
+                      </div>
+                
+                      <div class="col-7">
+                        <section class="card-body px-5">
+                            <h4 class="card-title dark fw-bold">Gigabyte B-365m Motherboard</h4>
+                            <p class="card-text">1151 Socket. USB 4.1. 1Gb Ethernet</p>
+                           <div class="d-inline-flex"><p class="card-text gray">Location:</p><p class="card-text dark">San Francisco, US</p></div> 
+                            <p class="card-text pink"><small>New</small></p>
+                            <div class="d-inline-flex justify-content-end w-100">
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h50 p-3 mb-5 bc-pink rounded mx-1">$450</a>
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h-50 p-3 mb-5 bc-pink rounded mx-1">Buy</a>
+                            </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="card pt-3 my-3">
+                    <div class="row g-0">
+                      <div class="col-1"></div>
+                      <div id="image-carousel-5" class="carousel slide img-search-result col-4 h-50" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../resources/Gigabyte-Z390-Intel.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/Gigabyte-Z390-Intel.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../resources/Gigabyte-Z390-Intel.jpg" class="d-block w-100" alt="core i3">
+                          </div>
+                        </div>
+                
+                        <div class="position-relative bottom-0 start-50 w-75">
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-5"
+                            data-bs-slide="prev">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                          <button class="bg-dark border-0 pink w-25" type="button" data-bs-target="#image-carousel-5" data-bs-slide="next">
+                            <span aria-hidden="true">
+                              <svg class="carousel-chevron" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                              </svg>
+                            </span>
+                          </button>
+                        </div>
+                
+                      </div>
+                
+                      <div class="col-7">
+                        <section class="card-body px-5">
+                            <h4 class="card-title dark fw-bold">Intel Core i3 Processor</h4>
+                            <p class="card-text">10th Gen core i3. 2 cores at 3.8gHz</p>
+                           <div class="d-inline-flex"><p class="card-text gray">Location:</p><p class="card-text dark">San Francisco, US</p></div> 
+                            <p class="card-text pink"><small>New</small></p>
+                            <div class="d-inline-flex justify-content-end w-100">
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h50 p-3 mb-5 bc-pink rounded mx-1">$450</a>
+                                <a href="#" class="text-decoration-none d-flex align-items-center justify-content-center btn-danger w-50 h-50 p-3 mb-5 bc-pink rounded mx-1">Buy</a>
+                            </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+              
+            </article>
             
         </article>
     </main>
+
 
     <footer class="p-2">
         <div class="footer">
