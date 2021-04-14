@@ -17,7 +17,7 @@
 ​
 ## Live Version Here ����️
 ​
-- [Soon]()
+- Hosted on [Github](julicarracedo.github.io/MaxwellHardware/)
 ​
 ## Author
 ​
