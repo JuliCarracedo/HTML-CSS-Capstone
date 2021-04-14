@@ -160,6 +160,7 @@ body {
   justify-content: space-between;
   width: 80%;
 }
+
 .search-brand,
 .search-price,
 .search-type {
@@ -168,7 +169,7 @@ body {
   justify-items: flex-end;
   margin-top: 10px;
   margin-bottom: 10px;
-  width:100%
+  width: 100%;
 }
 
 label {
@@ -185,7 +186,8 @@ label {
   .carousel-width {
     width: 75%;
   }
-  .fix-size{
+
+  .fix-size {
     width: 20vw;
   }
 }
