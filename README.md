@@ -28,6 +28,15 @@
 - LinkedIn: [Julian Carracedo]](https://www.linkedin.com/in/julian-carracedo-0b8518207/)
 
 Creative License for the design template goes to [Mohammed Awad on Behanc](https://www.behance.net/M_Awad)
+
+## Deployment
+Clone the repository to your device and use any live server tool to deploy a folder containing (at least) the following files/folders:
+
+- /main
+- /resources
+- /results
+
+The website's homepage is /main/index.html  and it is recommended to deploy the website from it, despite the chance to do otherwise.
 ​
 ## �� Contributing
 ​
