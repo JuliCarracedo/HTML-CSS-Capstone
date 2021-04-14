@@ -32,7 +32,8 @@ Creative License for the design template goes to [Mohammed Awad on Behanc](https
 ## Deployment
 Clone the repository to your device and use any live server tool to deploy a folder containing (at least) the following files/folders:
 
-- /main
+- index.html
+- styles.css
 - /resources
 - /results
 
