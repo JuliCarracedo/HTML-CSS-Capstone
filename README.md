@@ -2,10 +2,14 @@
 ​
 # HTML-CSS Capstone Project
 
-​![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Header%26Carousel.PNG)
+​![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Header%26Search.PNG)
 
-![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Categories.PNG)
-​
+![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Carousel.PNG)
+
+![​Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Categories.PNG)
+
+![​Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Results.PNG)
+
 ![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Footer.PNG)
 
 ## Project Description
