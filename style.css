@@ -115,7 +115,7 @@ footer {
   font-size: 10px;
 }
 
-.footer-logo  {
+.footer-logo {
   width: 12vw;
 }
 
@@ -148,7 +148,8 @@ footer {
 }
 
 .two-cols {
-  display: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
