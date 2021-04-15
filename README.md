@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
-# New York Times Page Clone
+# HTML-CSS Capstone Project
 
 ​![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Header%26Carousel.PNG)
 
@@ -8,7 +8,13 @@
 ​
 ![Online Store](https://github.com/JuliCarracedo/HTML-CSS-Capstone/blob/baseDesign/snapshots/Footer.PNG)
 
+## Project Description
+This website is an online web store for computer parts, based on [this design](https://www.behance.net/gallery/24796463/ZATTIX) by Mohammed Awad (link to his profile on Author section)
 
+There are two pages implemented:
+- Home page: Consisting of a set of categories to buy from and a main carousel with interesting products
+- Search Results Page: With (not working) Filters to make a search more specific and an arbitrary set of search results for the word "Intel"
+Both pages share a header with links to both pages, a footer with acces to the home screen, and a space to enter a keyword to search for.
 ​
 ### Built With
 ​
@@ -17,7 +23,7 @@
 ​
 ## Live Version Here ����️
 ​
-- Hosted on [Github](julicarracedo.github.io/MaxwellHardware/)
+- Hosted on [Github](https://julicarracedo.github.io/MaxwellHardware/)
 ​
 ## Author
 ​
